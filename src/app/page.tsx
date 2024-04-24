@@ -4,14 +4,13 @@ import Work from "@/components/work";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "J2 Boilerplate",
-    description: "this is a boilerplate for J2 applications. It includes a variety of components and styles to help you get started with your project.",
+    title: "Jacob Brewer",
+    description: "Jacob Brewer is a full-stack engineer with a focus on front-end development.",
     openGraph: {
-      title: "J2 Boilerplate",
-      description: "this is a boilerplate for J2 applications. It includes a variety of components and styles to help you get started with your project.",
-      url: "https://j2-boilerplate.vercel.app/",
-      siteName: "J2 Boilerplate",
-      images: 'https://j2-boilerplate.vercel.app/Meta-Info-Thumbnail.png',
+      title: "Jacob Brewer",
+      description: "Jacob Brewer is a full-stack engineer with a focus on front-end development.",
+      url: "https://jacobbrewer.dev/",
+      siteName: "Jacob Brewer",
     },
 }
 
