@@ -1,4 +1,6 @@
+import About from "@/components/about";
 import HomeBody from "@/components/homeBody";
+import Work from "@/components/work";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -17,6 +19,8 @@ export default function Home() {
     return(
         <>
             <HomeBody />
+            <Work />
+            <About />
         </>
     )
 }

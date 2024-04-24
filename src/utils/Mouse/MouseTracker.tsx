@@ -54,7 +54,7 @@ const MouseTracker: FC = () => {
 
     return (
         <motion.div 
-            className='fixed top-0 left-0 w-0 h-0 pointer-events-none z-[9999]' 
+            className='hidden md:fixed top-0 left-0 w-0 h-0 pointer-events-none z-[9999]' 
             animate={{ x: mouseState.x, y: mouseState.y }}
             transition={{ x: { type: 'spring', duration: 0.01 }, y: { type: 'spring', duration: 0.01 } }}
         >

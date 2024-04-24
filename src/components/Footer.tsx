@@ -1,29 +1,14 @@
 import { NAVIGATION } from "@/utils/constants";
 import Link from "next/link";
-import PoweredByJ2 from "./poweredBy";
 
 export default function Footer() {
     return (
-        <footer className="bg-gray-300 dark:bg-black">
-            <section>
-                
-                <div data-row>
-                    This is the footer.
-                </div>
+        <footer className="bg-light dark:bg-black">
+                            
+            <div className="flex justify-between items-center p-8">
+                <Link href="/" className="font-black text-4xl tracking-[-4px]">JB</Link>
+            </div>
 
-                <div data-row>
-                    {NAVIGATION.map((link, i) => (
-                        <div key={i}>
-                            <Link href={link.url} aria-label={link.url}>{link.title}</Link>
-                        </div>
-                    ))}
-                </div>
-
-                <div data-row>
-                    <PoweredByJ2 className="text-center opacity-30 font-extralight text-sm" />
-                </div>
-
-            </section>
         </footer>
     )
 }
