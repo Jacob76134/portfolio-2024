@@ -30,7 +30,7 @@ export default function HomeBody() {
 
         </section>
         <section className="min-h-screen flex items-center justify-center">
-            <p className="font-semibold text-xl">Hello, my name is Jacob Brewer.</p>
+            <p className="font-semibold text-xl">Thank you for looking at my website. Keep scrolling to see some projects.</p>
         </section>
     </>
 )}
